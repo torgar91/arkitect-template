@@ -28,6 +28,20 @@
     z-index: 2;
   }
   
+.hero h2 {
+    font-family: roboto;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 6.25rem;
+}
+.hero h1 {
+    font-family: bitter;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 6.25rem;
+    
+}
 
   section {
     border-top-left-radius: 6.25rem;
@@ -61,7 +75,7 @@
   }
   
   .menu-container {
-    background: black;
+    background: rgb(0, 0, 0);
     padding: 10px 20px;
     border-radius: 50px;
     display: flex;
