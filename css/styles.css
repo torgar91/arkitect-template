@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif; /* Fuente para textos generales */
+  }
+  
+  h1, h2, h3 {
+    font-family: 'Bitter', serif; /* Fuente para títulos */
+  }
+  
+  p {
+    font-family: 'Roboto', sans-serif; /* Fuente para párrafos */
+  }
