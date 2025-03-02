@@ -1,0 +1,29 @@
+.hero {
+    height: 100vh; /* Toda la altura de la pantalla */
+    background: url('../img/home-hero-bg.webp') center/cover no-repeat; /* Imagen de fondo */
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    text-align: center;
+    color: white;
+  }
+
+  .hero-content {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  .menu-container {
+    background: black;
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .navbar.scrolled .menu-container {
+    transform: translateY(-20px);
+  }
+  
