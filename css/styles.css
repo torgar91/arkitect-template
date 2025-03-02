@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Roboto', sans-serif; /* Fuente para textos generales */
+    background-color: black;
   }
   
   h1, h2, h3 {
@@ -9,4 +10,19 @@ body {
   
   p {
     font-family: 'Roboto', sans-serif; /* Fuente para párrafos */
+  }
+
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    padding: .625rem;
+    border-radius: 20%;
+    transition: background 0.3s ease;
+    display: inline-block;
+
+}
+
+.nav-links a:hover {
+    background: rgba(255, 255, 255, 0.2); /* Efecto hover */
   }
