@@ -13,6 +13,13 @@
     padding: 2rem;
     border-radius: 10px;
   }
+
+  section {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    overflow: hidden; /* Para que los bordes se apliquen bien si hay contenido dentro */
+  }
+  
   .menu-container {
     background: black;
     padding: 10px 20px;
@@ -27,3 +34,26 @@
     transform: translateY(-20px);
   }
   
+  .social-icons a {
+    color: black;
+    margin-left: 15px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icons a:hover {
+    color: #666;
+  }
+  
+  .menu-container {
+    background: black;
+    padding: 10px 20px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .navbar.scrolled .menu-container {
+    transform: translateY(-20px);
+  }
